@@ -5,8 +5,8 @@ const DetailsPage = () => {
   const routeKey = router.query.newsId;
   return (
     <div>
+      <h1> This is a details page.</h1>
       Route URL is: {routeKey}
-      This is a details page.
     </div>
   );
 };
