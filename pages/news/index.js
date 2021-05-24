@@ -1,7 +1,7 @@
-import { Link } from "next/link";
-import React, { Fragment } from "react";
+import Link from "next/link";
+import { Fragment } from "react";
 
-const index = () => {
+const newsIndex = () => {
   return (
     <Fragment>
       <h1>News</h1>
@@ -21,4 +21,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default newsIndex;
